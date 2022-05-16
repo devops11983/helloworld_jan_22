@@ -1,7 +1,8 @@
+  pipeline {
     agent any
 
     stages {
-        stage('code checkout') {
+        stage('Hello') {
             steps {
                 echo 'Hello World'
             }
